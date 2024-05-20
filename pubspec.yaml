@@ -1,0 +1,42 @@
+name: tflite_app
+description: Sample flutter app for object detection
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-175.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.9.1
+  tflite_flutter_helper: ^0.3.1
+  camera: ^0.9.4+5
+  hooks_riverpod: ^2.5.1
+  simple_logger: ^1.8.1+1
+  cupertino_icons: ^1.0.2
+  file: ^7.0.0
+  go_router: ^13.2.1
+  permission_handler: ^11.3.0
+  google_fonts: ^6.2.1
+  uni_links: ^0.5.1
+  shared_preferences: ^2.2.2
+  settings_ui: ^2.0.2
+  flutter_localizations:
+    sdk: flutter
+  exif: ^3.3.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - assets/
+    - assets/logo/
+  uses-material-design: true
+
