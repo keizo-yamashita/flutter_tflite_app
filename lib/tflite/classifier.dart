@@ -140,6 +140,7 @@ class Classifier {
     // create input tensor
     if (tensorType == TfLiteType.uint8) {
       List<int> normalizedInputImage = [];
+      
       for (var pixel in inputImage.tensorBuffer.getIntList()) {
         normalizedInputImage.add(pixel.toInt());
       }
